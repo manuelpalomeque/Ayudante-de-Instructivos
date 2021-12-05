@@ -51,6 +51,19 @@ header{
     height: 90%;
     box-shadow: 0px 5px 26px 8px rgba(41, 40, 39)
 }
+
+
+.caja-central3{
+    margin: 1%;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    border-radius: 20px;
+    overflow: hidden;
+    height: 90%;
+    box-shadow: 0px 5px 26px 8px rgba(41, 40, 39)
+}
+
 .caja-cara{
     display: flex;
     justify-content: center;
@@ -106,6 +119,22 @@ header{
     padding-right: 20%;
 }
 
+
+.dosB{
+    background-color: #F2F2F2;
+    /*height: 500px;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #303030;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin: 1%
+}
+
 .aptitudes{
     width: 50%;
 }
@@ -121,8 +150,7 @@ header{
 }
 
 .tres{
-    background-color: #303030;
-    height: 600px;
+    height: 200px;
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
@@ -160,7 +188,7 @@ footer{
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    color: #F2F2F2;
+    color: #ba6129;
     height: 250px;
 }
 .contacto{
@@ -213,4 +241,5 @@ footer{
 
 a {
   text-decoration: none;
+  color: #ba6129;
 }
