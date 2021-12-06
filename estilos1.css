@@ -65,7 +65,8 @@ header{
     border-radius: 20px;
     overflow: hidden;
     height: 90%;
-    box-shadow: 0px 5px 26px 8px rgba(41, 40, 39)
+    box-shadow: 0px 5px 26px 8px rgba(41, 40, 39);
+    background-color: #ba6129;
 }
 
 .caja-cara{
@@ -95,7 +96,9 @@ header{
     width: 60%;
     background-color: #F2F2F2;
     color: #303030;
-    padding: 100px;
+    padding-left: 20%;
+    padding-right: 20%;
+
 }
 
 
