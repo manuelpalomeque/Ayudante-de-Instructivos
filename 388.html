@@ -43,26 +43,106 @@
     </section>
     <section class="dosB">
         <div>
-            <h3>👉🏻 CONSIDERACIONES GENERALES: </h3>
-            <p>•¿Qué es una Cordobesa débito?<br>
+            <h3>👉🏻 ¿QUÉ ES UNA CORDOBESA DÉBITO?</h3>
             Medio físico por el cual una persona accede a sus cuentas caja de ahorros o cuenta corriente y dispone de sus fondos para realizar compras en comercios adheridos,
             como así también pagos, transferencias, consultas, solicitudes de claves y extracciones a través de cajeros automáticos y demás canales alternativos.<br>
             •Se genera automáticamente con el alta una cuenta a la vista (CA o CC) o bien, si el cliente ya posee una tarjeta activa, se vinculan las nuevas cuentas.</p>
             <img width="50%" class="cara" src="imagen/TD.png" alt="Manuel">
         </div>
         <div>
-            <h3>👉🏻 CAJERO AUTOMÁTICO DE OTRA ENTIDAD:</h3>
-            <p>•Si el Cajero Automático está ubicado en el lobby de la Sucursal de otra entidad:<br>
-            En el mismo día y si se encuentra dentro del horario de atención al público, intentar solicitar al Tesorero de esa sucursal su rescate y devolución.</p>
-            <p>•Si no es el caso del punto anterior, intentar lo mismo a primera hora del siguiente día hábil de la captura.</p>
-            <p>De no lograr la restitución del plástico, deberá realizar la denuncia para que se genere la reposición del mismo. <b>Informar el costo de reposición según
-                la guía de comisiones:<a href="https://www.bancor.com.ar/718_APP/comisiones/" target="_blank"> Ver Comisiones </a></b> </p>
-            <p>•Si el Cajero Automático no se encuentra en el lobby de una Sucursal de otra entidad:<br>
-            Proceder inmediatamente a la denuncia para que se genere la reposición del mismo.
-            <b>Informar el costo de reposición según la guía de comisiones:<a href="https://www.bancor.com.ar/718_APP/comisiones/" target="_blank"> Ver Comisiones </a></b> </p>
+            <h3>👉🏻 MODIFICACIONES QUE SE PUEDEN EFECTUAR EN UNA CORDOBESA DÉBITO:</h3>
+            <p> <b>Toda modificación se tipifica<a href="614.html"> 614 MODIFICACIÓN DE CORDOBESA DÉBITO</a>, es de
+                criticidad ALTA, por lo cual debe tener clave Bancor correcta. </b></p>
+            <ul>
+                <li>Vinculación / Desvinculación de cuentas</li>
+                <li>Modificación de Nombre/Apellido mal impreso</li>
+                <li>Aumento/Disminución de límite de extracción (DISPONIBLE EN BANCON)</li>
+                <li>Modificación de prioridad de cuentas (DISPONIBLE EN BANCON) </li>
+            </ul>
+            <h3>👉🏻 CONSIDERACIONES GENERALES: </h3>
+                <p>•Cada tarjeta puede tener vinculadas hasta 10 cuentas (CA o CC)<br>
+                    •Las modificaciones impactan en sistemas en 48 hs hábiles.<br>
+                    •PIN de compras: Vence cada 365 días corridos y el ATM emite una alerta 30 días corridos antes del vencimiento.<br>
+                    •Renovación de Cordobesa débito por vencimiento: se genera de manera automática y está disponible para
+                    retiro en sucursal o entrega en domicilio antes de llegada la fecha de vencimiento del plástico actual.<br>
+                </p>
+                <p>•Entrega intersucursal: es el pedido de traslado de una TD de la sucursal de origen donde se atesoró
+                    a otra de conveniencia del cliente.
+                    <ul>
+                        <li>Si sólo brindo información sobre la gestión de envío intersucursal, tipifico 388</li>
+                        <li>Si gestiono el perdido de envío intersucursal, tipifico <a href="159.html">159 - Estado de trámite de
+                        un alta nueva/ reposición </a>.</li>
+                    </ul>
+                </p>•Alta de Cordobesa débito: Se genera de manera automática al momento de darse de alta la primera
+                    cuenta. En caso de que transcurridas más de 72 hs hábiles desde el alta de la cuenta, no se
+                    visualice una TD dada de alta, se toma la gestión bajo la tipificación <a href="1289.html">1289 -Alta
+                    de tarjeta de Débito</a>. <br>
+                    •Alta de tarjeta AUH/Progresar: Se genera alta masiva junto con las cajas de ahorro de este tipo.
+                <p>
+        </div>
+        <div>
+            <h3>👉🏻 REPOSICIÓN DE CORDOBESA DEBITO: </h3>
+                <p><b>•Cordobesa débito – débito maestro – débito chip:</b>or BANCÓN o Contact center. Ante la
+                    reposición de estas tarjetas no se produce la baja del plástico actual.<br>
+                    <b>•Cordobesa débito chip CL:</b>Sólo por Contact Center bajo la tipificación <a href="1290.html">
+                    1290 - Reposición de Tarjeta de Debito</a>. Ante la reposición de estas tarjetas se produce
+                    la baja del plástico actual aproximadamente a las 24 hs de manera automática.<br>
+                </p>
+                <p><b>•Habilitación de Cordobesa débito:</b> (Siempre que la tarjeta figure en estado 0 en SOAT)
+                   <ul>
+                        <li>A través de BANCÓN</li>
+                        <li>A través de la gestión <a href="1296.html"> 1296 - Solicitud de activación de Tarjeta de
+                            Débito</a></li>
+                    </ul>
+                    La habilitación a través de BANCÓN se procesa en un plazo de 24/48 horas.
+                </p>
+                <p>
+                    <b>HABILITACION AUTOMATICA:</b><br>
+                    Podrá operar a partir del día siguiente, desde cajero automático, sin necesidad de realizar ningún
+                    otro tipo de gestión de habilitación previa, más que el <b>cambio de clave PIN obligatorio del primer uso </b>
+                    de la tarjeta. (Las CORDOBESA débito se habilitan automáticamente luego de las 00:00hs. del día
+                    inmediato posterior a la entrega, siempre y cuando se encuentren en estado “Entregado en sucursal”
+                    antes de las 15:00hs. del día de entrega).<br>
+                </p>
+                <p>
+                    <b>•Activación de Cordobesa débito:</b> Es el cambio de clave en ATM al recibir un plástico nuevo. El
+                    cliente debe acceder con los últimos 4 dígitos del DNI en el cajero automatico. Si se brinda esta
+                    info, se tipifica <a href="433.html">433 - Consulta PIN de Tarjeta de Débito</a>.<br>
+                    <b>•Estado HABILITADA / NO HABILITADA en cliente único:</b> refiere a la funcionalidad transporte,
+                    no al estado de la TD.<br>
+                    <b>•Números de TD borrados:</b> Corresponde solicitar reposición de TD bajo la tipificación <a href="1290.html">
+                    1290 - Reposición de Tarjeta de Debito</a>.
+                </p>
+        </div>
+        <div>
+            <h3>👉🏻 USO DE CORDOBESA DEBITO EN EL EXTERIOR: </h3>
+                <p><b>•Cordobesa débito – débito maestro – débito chip:</b>or BANCÓN o Contact center. Ante la
+                    reposición de estas tarjetas no se produce la baja del plástico actual.<br>
+                    <b>•Cordobesa débito chip CL:</b>Sólo por Contact Center bajo la tipificación <a href="1290.html">
+                    1290 - Reposición de Tarjeta de Debito</a>. Ante la reposición de estas tarjetas se produce
+                    la baja del plástico actual aproximadamente a las 24 hs de manera automática.<br>
+                </p>
+                <p><b>•Habilitación de Cordobesa débito:</b> (Siempre que la tarjeta figure en estado 0 en SOAT)
+                   <ul>
+                        <li>A través de BANCÓN</li>
+                        <li>A través de la gestión <a href="1296.html"> 1296 - Solicitud de activación de Tarjeta de
+                            Débito</a></li>
+                    </ul>
+                    La habilitación a través de BANCÓN se procesa en un plazo de 24/48 horas.
+                </p>
+        </div>
+        <div>
+            <h3>👉🏻 COMPRAS POR INTERNET CON CORDOBESA DEBITO: </h3>
+                <p>La operatoria está habilitada <b>para comercios NACIONALES.</b>En el caso de declinarse la
+                   transacción o no poder realizar la operación que desea a través de la web del comercio, se debe a que
+                    el comercio en el que está intentando operar no está adherido para recibir CORDOBESA débito
+                </p>
+                <p><b>•Compras en el exterior:</b> Los clientes pueden operar en el exterior sólo de forma PRESENCIAL
+                    no compras E_Commerce.
+                </p>
         </div>
     </section>
-    <footer>
+    Í<footer>
          <br>
          <a href="consultasdebito.html"><h2>Atrás</h2></a>
          <a href="index.html"><h2>Inicio</h2></a>
