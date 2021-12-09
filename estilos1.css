@@ -98,7 +98,7 @@ header{
     color: #303030;
     padding-left: 5%;
     padding-right: 5%;
-
+    overflow-y: scroll;
 }
 
 
